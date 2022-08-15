@@ -2,6 +2,11 @@ package com.sajib;
 
 public class mainclass {
     public static void main(String[] args) {
+
+       Input input = new Input();
+
+//       System.out.print(input.name +"\n");
+
         System.out.println("hellow world");
         //scape sequence
         System.out.println("hellow \t world");
@@ -21,8 +26,8 @@ public class mainclass {
         System.out.printf("%c\n",r);
         System.out.printf("%d\n",rs);
         System.out.printf("%d\n",i);
-        System.out.printf("%f\n",ty);
-        System.out.printf("%f\n",saha);
+        System.out.printf("%.1f\n",ty);
+        System.out.printf("%.2f\n",saha);
 
     }
 }
