@@ -10,6 +10,7 @@ public class triangecalculation {
         double base,height,area;
 
         System.out.println("enter base :");
+
         base = input.nextDouble();
         System.out.println("enter height :");
         height = input.nextDouble();
