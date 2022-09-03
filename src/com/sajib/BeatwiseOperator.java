@@ -11,15 +11,15 @@ public class BeatwiseOperator {
 
         int c;
 
-        c = a&b;
+        c = a&b; //and gate
 
         System.out.println(c);
 //
-//        c = a|b;
+//        c = a|b; //or gate
 //
 //        System.out.println(c);
 //
-//        c = a^b;
+//        c = a^b; //xor gate
 //
 //        System.out.println(c);
 
