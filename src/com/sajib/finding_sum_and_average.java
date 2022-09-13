@@ -22,7 +22,22 @@ public class finding_sum_and_average {
         }
 
         System.out.println("the sun is "+ sum);
-        System.out.println("the sun is "+ sum/5);
+        System.out.println("the avarage is "+ sum/5);
+
+        double max = number[0] ;
+        double min = number[0] ;
+
+        for(int i = 0; i<5; i++){
+            if(max < number[i]){
+                max = number[i] ;
+            }
+            if(min > number[i]){
+                min = number[i] ;
+            }
+        }
+
+        System.out.println("here max number :" + max);
+        System.out.println("here max number :" + min);
 
     }
 
