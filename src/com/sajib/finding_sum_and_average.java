@@ -22,6 +22,7 @@ public class finding_sum_and_average {
         }
 
         System.out.println("the sun is "+ sum);
+        System.out.println("the sun is "+ sum/5);
 
     }
 
