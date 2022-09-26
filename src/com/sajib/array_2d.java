@@ -14,7 +14,7 @@ public class array_2d {
         number[1][2] = 90 ;
 
         System.out.println(number.length);
-        System.out.println(number.toString());
+        System.out.println(number[0][2]);
 
     }
 }
